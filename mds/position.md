@@ -21,3 +21,22 @@
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+안나오네;
+
+참고로 값을 줄 때 예를 들어 top에 10px만큼 준다면 static의 위치를 기준으로 10px 내려온다. left일 경우엔 왼쪽으로 10px 밀림.
+
+올리고 싶을 경우엔 음수로 주면 됨
+
+`z-index`는 요소들이 겹칠 경우에 누가 앞으로 올 지 정해주는 것
+
+**absolute**
+
+`relative`가 static인 상태를 기준으로 움직인다면 `absolute`는 `position:static`을 갖고 있지 않은 부모를 기준으로 움직이게 된다.
+
+만약 없으면 body가 기준이 됨
+
+**fixed**
+
+항상 페이지의 특정 위치에 고정시켜버리는 속성
+
+* 참고) absolute와 fixed는 블록 속성의 요소들이 너비(width)를 100% 차지하지 않게 된다.
