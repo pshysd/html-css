@@ -1,4 +1,4 @@
-s## 박스모델
+## 박스모델
 
 개발자 도구를 열고 Elements 탭으로 간다.
 
@@ -6,7 +6,7 @@ s## 박스모델
 
 이런 그림이 나온다.
 
-![screenshot](../public/img/style.png)
+![screenshot](../img/style.png)
 
 `position`, `margin`, `border`, `padding`, `content` 순으로 나온다.(content는 파란색 네모임)
 
